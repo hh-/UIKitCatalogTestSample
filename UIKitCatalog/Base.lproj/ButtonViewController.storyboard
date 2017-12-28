@@ -29,7 +29,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kt-uW-BR1">
                                                     <rect key="frame" x="164.5" y="7" width="46" height="30"/>
-                                                    <accessibility key="accessibilityConfiguration" identifier="button_sytemText"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="button_systemText"/>
                                                     <state key="normal" title="Button">
                                                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -54,6 +54,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kaz-JT-zT4">
                                                     <rect key="frame" x="176.5" y="11" width="22" height="22"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="button_contactAdd"/>
                                                     <state key="normal">
                                                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -78,6 +79,9 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kk-qb-b6p">
                                                     <rect key="frame" x="176.5" y="11" width="22" height="22"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="button_detailDisclosure">
+                                                        <accessibilityTraits key="traits" button="YES" adjustable="YES"/>
+                                                    </accessibility>
                                                     <state key="normal">
                                                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
@@ -102,6 +106,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGF-rn-9B7">
                                                     <rect key="frame" x="146.5" y="7" width="82" height="30"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="button_image"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="3yG-gd-js4"/>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="82" id="KcP-fe-RbS"/>
@@ -130,6 +135,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynp-Un-3Nj">
                                                     <rect key="frame" x="164.5" y="7" width="46" height="30"/>
+                                                    <accessibility key="accessibilityConfiguration" identifier="button_attributedText"/>
                                                     <state key="normal" title="Button">
                                                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>

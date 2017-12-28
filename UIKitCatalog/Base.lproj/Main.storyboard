@@ -39,6 +39,9 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration" identifier="navigationBackButton">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="I3S-QC-tTb" firstAttribute="centerX" secondItem="aE8-Eb-ul8" secondAttribute="centerX" id="8O2-AB-2HE"/>
                             <constraint firstItem="zUx-Gt-OuD" firstAttribute="top" secondItem="I3S-QC-tTb" secondAttribute="bottom" constant="17" id="awm-Nl-NcA"/>
