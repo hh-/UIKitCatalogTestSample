@@ -12,7 +12,7 @@ class MainTableViewTest: UICatalogTest {
 
   var mainTableView: MainTableViewPage = MainTableViewPage()
 
-  func mainTableViewPage() {
+  func testMainTableViewPage() {
     mainTableView.testPageObjects()
 //    mainTableView.testScrollUp()
     mainTableView.testScrollDown()
