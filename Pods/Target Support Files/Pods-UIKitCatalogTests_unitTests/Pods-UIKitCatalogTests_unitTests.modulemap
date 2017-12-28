@@ -1,0 +1,6 @@
+framework module Pods_UIKitCatalogTests_unitTests {
+  umbrella header "Pods-UIKitCatalogTests_unitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
