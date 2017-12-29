@@ -32,7 +32,7 @@ class MainTableViewPage: UICatalogTest {
     let toolbars = "Toolbars"
     let webView = "Web View"
 
-    func testPageObjects() {
+    func assertPageObjects() {
         setUp()
         e.assertTextVisible(activityIndicators)
         e.assertTextVisible(alertController)
@@ -57,7 +57,7 @@ class MainTableViewPage: UICatalogTest {
         e.assertTextVisible(webView)
     }
 
-    func testScrollDown() {
+    func scrollDownTest() {
         e.selectByID("mainTableView").perform(grey_scrollToContentEdge(.bottom))
             .assert(grey_scrolledToContentEdge(.bottom))
     }
