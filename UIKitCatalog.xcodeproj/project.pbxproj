@@ -10,6 +10,7 @@
 		065976B31FF550B700151438 /* ButtonsPageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065976B21FF550B700151438 /* ButtonsPageTest.swift */; };
 		065976B71FF5513600151438 /* ButtonsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065976B61FF5513600151438 /* ButtonsPage.swift */; };
 		065976B91FF58D6500151438 /* EarlGreyHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065976B81FF58D6500151438 /* EarlGreyHelpers.swift */; };
+		065976BB1FF6946A00151438 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 065976BA1FF6946A00151438 /* README.md */; };
 		069711131FE8369B00824F69 /* UIKitCatalogTests_unitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069711121FE8369B00824F69 /* UIKitCatalogTests_unitTests.swift */; };
 		0697111B1FE83A6400824F69 /* MainTableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0697111A1FE83A6400824F69 /* MainTableViewTest.swift */; };
 		069711211FE980DB00824F69 /* MainTableViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069711201FE980DB00824F69 /* MainTableViewPage.swift */; };
@@ -104,6 +105,7 @@
 		065976B21FF550B700151438 /* ButtonsPageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPageTest.swift; sourceTree = "<group>"; };
 		065976B61FF5513600151438 /* ButtonsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPage.swift; sourceTree = "<group>"; };
 		065976B81FF58D6500151438 /* EarlGreyHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyHelpers.swift; sourceTree = "<group>"; };
+		065976BA1FF6946A00151438 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		069711101FE8369B00824F69 /* UIKitCatalogTests_unitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitCatalogTests_unitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069711121FE8369B00824F69 /* UIKitCatalogTests_unitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCatalogTests_unitTests.swift; sourceTree = "<group>"; };
 		069711141FE8369B00824F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			children = (
 				069C9F091FEC6BEB0087BD5E /* UICatalogTest.swift */,
 				065976B81FF58D6500151438 /* EarlGreyHelpers.swift */,
+				065976BA1FF6946A00151438 /* README.md */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				53B791DB1F85505700AB2FA6 /* InfoPlist.strings in Resources */,
 				539C6BAE1F27F4980006C5A9 /* ActivityIndicatorViewController.storyboard in Resources */,
 				53CE5AFB1F2A8BEB00D8A656 /* TextFieldViewController.storyboard in Resources */,
+				065976BB1FF6946A00151438 /* README.md in Resources */,
 				5341627C1F291F310007BCCA /* ToolbarViewControllers.storyboard in Resources */,
 				53B791DC1F85505A00AB2FA6 /* Localizable.strings in Resources */,
 				228DBA0818BC53F1002BA12A /* Assets.xcassets in Resources */,
