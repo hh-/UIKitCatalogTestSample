@@ -14,5 +14,6 @@ class ButtonsPageTest: UICatalogTest {
 
   func testPageObjects() {
     buttonView.assertPageObjects()
+    buttonView.pressSystemTextButton()
   }
 }
