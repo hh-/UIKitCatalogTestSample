@@ -30,7 +30,7 @@ class ButtonsPage: XCTestCase {
     let attributedTextButton = "button_attributedText"
 
     func assertPageObjects() {
-        setUp()
+        self.setUp()
         // TODO: change this to "systemTextButton.assertVisible()"
         e.assertVisible(systemTextButton)
         e.assertVisible(systemTextButton)
@@ -38,7 +38,15 @@ class ButtonsPage: XCTestCase {
         e.assertVisible(detailDisclosureButton)
         e.assertVisible(imageButton)
         e.assertVisible(attributedTextButton)
-        tearDown()
+        self.tearDown()
+    }
+
+    // TODO: resume here
+    func pressSystemTextButton() {
+        self.setUp()
+        e.tapByID(systemTextButton)
+        sleep(3)
+        self.tearDown()
     }
 
     override func setUp() {

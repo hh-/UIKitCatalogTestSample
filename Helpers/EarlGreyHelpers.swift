@@ -27,7 +27,18 @@ public class EarlGreyHelpers: XCTestCase {
         selectByText(text).assert(grey_sufficientlyVisible())
     }
 
+    // TODO: requires accessibility to
+    // the navigation button title "UIKitCatalog"
+    // Make it so that it can handle alerts
     func returnToFrontTableView() {
         EarlGrey.select(elementWithMatcher: grey_buttonTitle("UIKitCatalog")).perform(grey_tap())
+    }
+
+    func tapByID(_ ID:String) {
+        selectByID(ID).perform(grey_tap())
+    }
+
+    func tapByText(_ text:String) {
+        selectByText(text).perform(grey_tap())
     }
 }

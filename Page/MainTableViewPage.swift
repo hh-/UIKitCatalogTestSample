@@ -33,7 +33,7 @@ class MainTableViewPage: UICatalogTest {
     let webView = "Web View"
 
     func assertPageObjects() {
-        setUp()
+        self.setUp()
         e.assertTextVisible(activityIndicators)
         e.assertTextVisible(alertController)
         e.assertTextVisible(buttons)
@@ -55,11 +55,14 @@ class MainTableViewPage: UICatalogTest {
         e.assertTextVisible(textView)
         e.assertTextVisible(toolbars)
         e.assertTextVisible(webView)
+        self.tearDown()
     }
 
     func scrollDownTest() {
+        self.setUp()
         e.selectByID("mainTableView").perform(grey_scrollToContentEdge(.bottom))
             .assert(grey_scrolledToContentEdge(.bottom))
+        self.tearDown()
     }
 
     // TODO: figure out why this fails (navigation bar?)
@@ -72,12 +75,10 @@ class MainTableViewPage: UICatalogTest {
 
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
         e.selectByID("mainTableView").perform(grey_scrollToContentEdge(.top))
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         e.selectByID("mainTableView").perform(grey_scrollToContentEdge(.top))
         super.tearDown()
     }
