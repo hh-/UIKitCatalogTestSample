@@ -471,7 +471,7 @@
 						TestTargetID = 228DB9F218BC53F1002BA12A;
 					};
 					228DB9F218BC53F1002BA12A = {
-						DevelopmentTeam = B6333T4PXQ;
+						DevelopmentTeam = 6Z6TK353XY;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -1053,7 +1053,7 @@
 			baseConfigurationReference = 8F72FB7D651B7DF044D8C396 /* Pods-UIKitCatalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = 6Z6TK353XY;
 				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
@@ -1069,7 +1069,7 @@
 			baseConfigurationReference = 82D671653DE74C3A50979206 /* Pods-UIKitCatalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B6333T4PXQ;
+				DEVELOPMENT_TEAM = 6Z6TK353XY;
 				INFOPLIST_FILE = "$(SRCROOT)/UIKitCatalog/UIKitCatalog-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";

@@ -2,7 +2,7 @@
 //  ButtonsPageTest.swift
 //  UIKitCatalogTests_unitTests
 //
-//  Created by Heath Hales on 12/28/17.
+//  Created by hh- on 12/28/17.
 //  Copyright © 2017 Apple. All rights reserved.
 //
 

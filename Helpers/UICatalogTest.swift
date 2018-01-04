@@ -2,7 +2,7 @@
 //  CatalogTest.swift
 //  UIKitCatalogTests_unitTests
 //
-//  Created by Heath Hales on 12/21/17.
+//  Created by hh- on 12/21/17.
 //  Copyright © 2017 Apple. All rights reserved.
 //
 
